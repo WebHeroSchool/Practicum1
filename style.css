@@ -14,9 +14,11 @@ main {
 }
 .logo {
     background: url('img/logo.svg');
-    //font: bold 24px/31px pt_serif, Arial, Helvetica, sans-serif;
+    font-family: bold 24px/31px PT serif, Arial, Helvetica, sans-serif;
     width: 190px;
     height: 35px;
+    //padding: 40px 0;
+    
         
 }
 .header {
