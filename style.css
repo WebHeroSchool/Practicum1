@@ -1,0 +1,41 @@
+body {
+    background: white;
+    border: dashed 1px indigo;
+}
+main {
+    font-family: 'Roboto Condensed', sans-serif;
+    font: normal 16px 'Roboto Condensed', sans-serif;
+}
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+    border: dashed 1px red;
+}
+.logo {
+    background: url('img/logo.svg');
+    font-family: bold 24px/31px PT serif, Arial, Helvetica, sans-serif;
+    width: 190px;
+    height: 35px;
+    //padding: 40px 0;
+    
+        
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    border: dashed 1px black;
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    padding: 0 13px;
+    border: dashed 1px red;
+}
+.menu__item:last-child {
+    padding-right: 0;
+}
