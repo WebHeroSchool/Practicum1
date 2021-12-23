@@ -115,7 +115,7 @@ main {
     background: #ECF3FF;
 }
 
-@media (min-width:1170px) {
+@media (max-width:768px) {
     .menu {
         display: none;
     }
